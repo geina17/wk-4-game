@@ -1,0 +1,101 @@
+body {
+	background-image: url("assets/images/gembkgrnd.png"); 
+}
+
+h1{
+	font-family: 'crystal_universe_regularRg';
+    src: url('crystaluniverse-regular-webfont.woff2') format('woff2'),
+         url('crystaluniverse-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+	background-color:white ;
+	color:#ffae00 ;
+	display:inline;
+	clear: both;
+	padding: ;
+	margin-bottom: ;
+	border: ;
+}
+
+#wrapper {
+	width:100%;
+	max-width:960%;
+	margin:0 auto;
+}
+
+#instructions {
+	font-family: 'crewniversemedium';
+    src: url('crewniverse_font-webfont.woff2') format('woff2'),
+         url('crewniverse_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	background-color:white;
+	color: #ff4c00;
+	width: ;
+	clear:both;
+	padding: ;
+	margin-top: ;
+	border: 
+}
+
+#guessingNumber {
+	font-family: 'crewniversemedium';
+    src: url('crewniverse_font-webfont.woff2') format('woff2'),
+         url('crewniverse_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	color:#ff005d;
+	background-color: ;
+	float: left;
+	display: inline-block;
+	padding: ;
+	margin-top: ;
+	border: 
+}
+
+#scoreboard {
+	font-family: 'crewniversemedium';
+    src: url('crewniverse_font-webfont.woff2') format('woff2'),
+         url('crewniverse_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	color:#ff005d;
+	background-color:white;
+	display: inline-block;
+	padding:    ;
+	margin-top: ;
+	margin-left: ;
+	border: 
+
+}
+
+#crystals {
+	margin-top: ;
+	margin-bottom:;
+
+}
+
+.crystalImage {
+	height: ;
+	border: ;
+	margin-left:10px;
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+	font:"crewniverse";
+	color:#ffae00;
+	background:;
+	display: inline;
+	padding: ;
+	border: 
+}
