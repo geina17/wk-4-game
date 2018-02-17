@@ -1,0 +1,145 @@
+*{
+	float:right;
+	text-align: center;
+}
+body {
+	background-image: url(gembkgrnd.png);
+	max-width:800px; 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+@font-face {
+    font-family: 'crewniversemedium';
+    src: url('../font/webfont/crewniverse_font-webfont.woff2') format('woff2'),
+         url('../font/webfont/crewniverse_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'crystal_universe_regularRg';
+    src: url('../font/webfont/crystaluniverse-regular-webfont.woff2') format('woff2'),
+         url('../font/webfont/crystaluniverse-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+	font-family: 'crystal_universe_regularRg';
+	font-size: 50px;
+	/*background-color:#ffe4e1;*/
+	
+	color:#ffae00;
+	display:inline;
+	clear: both;
+	width: 980px;
+	padding-bottom:30px;
+	padding-top: 15px;
+	padding-left: 30px;
+
+}
+h2{
+	font-family: 'crewniversemedium';
+    padding-left:30px;
+    float: left;
+	/*background-color:#ffe4e1;*/
+	color: #ba3286;
+	display:inline;
+	clear: both;
+}
+
+#wrapper, {
+	width:100%;
+	max-width:960%;
+	margin:0 auto;
+	/*position: right;*/
+}
+
+#instructions {
+	font-family: 'crewniversemedium';
+	font-size:25px;
+	/*background-color:#ffe4e1;*/
+	/*color: #3d207c;*/
+	color:#47003b;
+	width:755px;
+	clear:both;
+	padding-top:30px;
+	padding-left:30px;
+	padding-bottom: 30px;
+}
+
+
+#guessingNumber {
+	font-family: 'crewniversemedium';
+   	padding-left: 30px;
+
+	color:#47003b;
+	/*background-color:#47003b;*/
+	float: left;
+	display: inline-block;
+	padding: ;
+	margin-top: ;
+	border: 
+}
+
+
+#scoreboard {
+	font-family: 'crewniversemedium';
+    padding-left: 30px;
+
+	color:#23f902;
+	/*background-color:#7fff94;*/
+	display: inline-block;
+	padding:    ;
+	margin-top:10px;
+	margin-bottom:10px ;
+	border: ;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.gem1{
+	float: left;
+}
+.gem2{
+	float:left;
+}
+.gem3{
+	float:right;
+}
+.gem4{
+	float:left;
+	margin-right: ;
+
+}
+
+#Gems{
+	height:100px;
+	width:460px;
+	padding-left: 30px;
+
+	/*position: absolute;*/
+	/*z-index:-1;*/
+}
+
+#totalScore {
+	margin-bottom: ;
+}
+
+#yts {
+	font:"crewniverse";
+	color:#ffae00;
+	background:;
+	display: inline;
+	padding: ;
+	border: ;
+}
+
+
+

@@ -1,0 +1,23 @@
+crystal collecter {not a one for one but close enough}
+	print something out to the page
+	need image
+	need jq
+	put gems in div
+		<div id>="crystal"</>
+	gem image .on(click",function())
+	var counter
+		counter += 1
+			needs to be outside of loop so it doesnt reset
+			var numberOptions =[3,5];
+	var target number = 
+		$("#number-to-guess")
+	if (counter === targetNumber){
+		alert("winner")
+		counter = 0;
+	}
+	else if (counter>= targetNumber){
+		alert("loser")
+	}
+		needs to be out of loop?
+	for (var i=0; i <targetNumber)
+	var gemValue = ($(this).attr("data-gemValue	"))
