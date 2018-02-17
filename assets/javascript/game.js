@@ -43,34 +43,38 @@ var startGame =function(){
 }
 
 $(".gem1").click(function(){
-
 	currentScore+= gems.gem1.value;
+	$("#scorebored").text("scorebored:" +currentScore);
 	console.log("gem1");
 });
 $(".gem2").click(function(){
-
 	currentScore+= gems.gem2.value;
-	console.log("gem1");	
+	("#scorebored").text("scorebored:" +currentScore);
+	console.log("gem2");	
 });
 $(".gem3").click(function(){
-
 	currentScore+= gems.gem3.value;
-	console.log("gem1");	
+	("#scorebored").text("scorebored:" +currentScore);
+	console.log("gem3");	
 });
  
 $(".gem4").click(function(){
-
 	currentScore+= gems.gem4.value;
-	console.log("gem1");	
+	("#scorebored").text("scorebored:" +currentScore);
+	console.log("gem4");	
 });
 
 function currentScore(){
 	if(currentScore === targetNumber){
-			alert("You're Incredible!");
-		wins++;
-	} else if (currentScore==targetNumber) {
-		alert("I need to be standing or else it doesn’t work..");
+		$("#scorebored").text("You're Incredible!");
+			wins++;
+		$("wins").text("wins:" +wins);
+		startUp();
+	} else if (currentScore >targetNumber) {
+		$("#scorebored").text("I need to be standing or else it doesn’t work..");
 		loses++;
+		$("#loses").text("loses:" );
+		startUp();
 	}
 }
 function reset(){
